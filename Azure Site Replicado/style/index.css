@@ -93,10 +93,27 @@
 }
 
 .containerMapa{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     background: #2B3862;
-    height: 600px;
+    height: 800px;
     margin-left: -10px;
+    margin-right: -10px;
 
+}
+.containerMapa > p{
+    width: 500px;
+    background: #2B3862;
+    font-family: 'Segoe UI';
+    height: 100px;
+    line-height: 20px;
+    margin-left: 43em;
+    font-size: 15;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 
@@ -118,6 +135,7 @@
     width: 150px;
     font-family: 'Segoe UI';
     font-weight: bold;
+    border-style: solid;
     height: 50px;
     background: #8BBE20;
     text-align: center;
