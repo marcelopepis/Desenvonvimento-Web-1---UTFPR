@@ -68,15 +68,33 @@
     align-items: inherit;
 
 }
+.containerCentro > img{
+    align-self: flex-end;
+    margin-top: -225px;
+    margin-right: 130px;
+}
 
 .containerLinks{
+    display: flex;
+    flex-direction: row;
     background: #FFFFFF;
-    height: 250px;
+    height: 350px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.containerLinks > div{
+    flex-wrap: inherit;
+    align-self: center;
+    margin-left: 10px;
+    text-align: center;
+}
+.containerLinks > img{
+    position: relative;
 }
 
 .containerMapa{
     background: #2B3862;
-    height: 500px;
+    height: 600px;
     margin-left: -10px;
 
 }
@@ -99,10 +117,15 @@
 .botaoCentro{
     width: 150px;
     font-family: 'Segoe UI';
+    font-weight: bold;
     height: 50px;
     background: #8BBE20;
     text-align: center;
     line-height: 45px;
     font-size: 15;
     margin-top: 15;
+}
+
+.botaoCentro:hover{
+    background: #9DDD25;
 }
