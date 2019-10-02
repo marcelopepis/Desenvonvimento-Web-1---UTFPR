@@ -1,149 +1,146 @@
+.containerTopo {
+  background: #1b1a20;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.textoTopo {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #9f9ea3;
+  list-style-type: none;
+}
+.menuTopo {
+  background: #1b1a20;
+  display: flex;
+  flex-wrap: nowrap;
 
-.containerTopo{
-    background: #1B1A20;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-.textoTopo{
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    color: #9F9EA3;
-    list-style-type: none;
-}
-.menuTopo{
-    background: #1B1A20;
-    display: flex;
-    flex-wrap: nowrap;
-    
-    margin-top: -16px;
-    margin-left: -50px;
+  margin-top: -16px;
+  margin-left: -50px;
 }
 
-.contaGratuita{
-    background: #1B1A20;
-    color: #404C21;
+.contaGratuita {
+  background: #1b1a20;
+  color: #ade424;
 }
-.contaGratuita:hover{
-    color: #8EC723;
+.contaGratuita:hover {
+  color: #8ec723;
 }
 
 .menuTopo > div {
-    width: 170px;
-    height: 80px;
-    margin:10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 15;
-    margin-top: 15;
+  width: 170px;
+  height: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15;
+  margin-top: 15;
 }
 
-
-.menuTopo > div:hover{
-    background: #010103;
-    color: #FFFFFF;
+.menuTopo > div:hover {
+  background: #010103;
+  color: #ffffff;
 }
 
-.boxLink11{
-    flex: 11;
-    padding: 5px;
-    color: 	#404C21;
+.boxLink11 {
+  flex: 11;
+  padding: 5px;
+  color: #404c21;
 }
-.boxLink11:hover{
-    
-    color: #8EC723;
-
+.boxLink11:hover {
+  color: #8ec723;
 }
 
-.containerCentro{
-    display: flex;
-    margin-top: -16px;
-    margin-left: -10px;
-    padding-left: 150px;
-    height: 350px;
-    line-height: 20px;
-    padding-top: 100px;
-    background: #333238;
-    flex-direction: column;
-    align-items: inherit;
-
+.containerCentro {
+  display: flex;
+  margin-top: -16px;
+  margin-left: -10px;
+  padding-left: 150px;
+  height: 350px;
+  line-height: 20px;
+  padding-top: 100px;
+  background: #333238;
+  flex-direction: column;
+  align-items: inherit;
 }
-.containerCentro > img{
-    align-self: flex-end;
-    margin-top: -225px;
-    margin-right: 130px;
-}
-
-.containerLinks{
-    display: flex;
-    flex-direction: row;
-    background: #FFFFFF;
-    height: 350px;
-    padding-left: 300px;
-    padding-right: 300px;
-}
-.containerLinks > div{
-    flex-wrap: inherit;
-    align-self: center;
-    margin-left: 10px;
-    text-align: center;
-}
-.containerLinks > img{
-    position: relative;
+.containerCentro > img {
+  align-self: flex-end;
+  margin-top: -225px;
+  margin-right: 8%;
 }
 
-.containerMapa{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    background: #2B3862;
-    height: 800px;
-    margin-left: -10px;
-    margin-right: -10px;
-
+.containerLinks {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  height: 350px;
+  padding-left: 180px;
+  padding-right: 180px;
 }
-.containerMapa > p{
-    width: 500px;
-    background: #2B3862;
-    font-family: 'Segoe UI';
-    height: 100px;
-    line-height: 20px;
-    margin-left: 43em;
-    font-size: 15;
-    margin-top: 15px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-align: center;
+.containerLinks > div {
+  padding: 15px;
+  align-self: center;
+  margin-left: 10px;
+  text-align: center;
+}
+.containerLinks > img {
+  position: relative;
 }
 
+.containerMapa {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background: #2b3862;
+  height: 800px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.containerMapa > p {
+  width: 500px;
+  background: #2b3862;
+  font-family: "Segoe UI";
+  height: 100px;
+  line-height: 42px;
+  margin-left: 30%;
+  border: solid 1px;
+  font-size: 15;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+.containerMapa > p:hover {
+  background: #ffffff;
+  color: #3a6680;
+}
 
 /*Centro*/
 
-.h2Centro{
-    color: #FFFFFF;
-    font-family: 'Segoe UI';
-    font-size: 30px;
-    letter-spacing: 1px;
+.h2Centro {
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-size: 30px;
+  letter-spacing: 1px;
 }
-.h3Centro{
-    color: #FFFFFF;
-    font-family: 'Segoe UI';
-    letter-spacing: 1px;
-    font-size: 15px;
+.h3Centro {
+  color: #ffffff;
+  font-family: "Segoe UI";
+  letter-spacing: 1px;
+  font-size: 15px;
 }
-.botaoCentro{
-    width: 150px;
-    font-family: 'Segoe UI';
-    font-weight: bold;
-    border-style: solid;
-    height: 50px;
-    background: #8BBE20;
-    text-align: center;
-    line-height: 45px;
-    font-size: 15;
-    margin-top: 15;
+.botaoCentro {
+  width: 150px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  height: 50px;
+  background: #8bbe20;
+  text-align: center;
+  line-height: 45px;
+  font-size: 15;
+  margin-top: 15;
 }
 
-.botaoCentro:hover{
-    background: #9DDD25;
+.botaoCentro:hover {
+  background: #9ddd25;
 }
