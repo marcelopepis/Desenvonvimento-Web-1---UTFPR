@@ -1,20 +1,78 @@
 .containerTopo {
   background: #1b1a20;
   display: flex;
-  margin-left: -15px;
+  margin-left: -10px;
   margin-top: -10px;
-  margin-right: -15px;
+  margin-right: -10px;
   flex-direction: column;
-  flex-direction: row;
+
   align-items: flex-end;
 }
-.imagemLogo {
-  height: 45px;
-  width: 9%;
-  margin-left: 30px;
+.topoContato {
+  display: flex;
+  margin-left: 25%;
+  flex-direction: row;
+  color: white;
+  font-family: "Segoe UI";
+}
+.boxImagem {
+  flex: 1;
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+}
+.boxTopoVazio {
+  margin-right: 39%;
+}
+.box1Topo {
+  flex: 7%;
+  padding: 15px;
+  margin-top: 0px;
+  font-size: 11px;
+  text-align: center;
+}
+.box1Topo:hover {
+  background: #010103;
+}
+.box2Topo {
+  padding: 17px;
+  flex: 1;
+  margin-top: 0px;
+  margin-left: -5px;
+  font-size: 11px;
+}
+.box2Topo:hover {
+  background: #010103;
+}
+.box3Topo {
+  margin-top: 0;
+  text-align: center;
+  padding: 15px;
+}
+.box3Topo:hover {
+  background: #0379cd;
+  color: white;
+}
+.box4Topo {
+  flex: 1;
+  margin-top: 0px;
+  padding: 15px;
+}
+.box4Topo:hover {
+  background: #0379cd;
+
+  color: white;
+}
+.box5Topo {
+  flex: 1;
+  margin-top: 0px;
+  padding: 15px;
+}
+.box5Topo:hover {
+  background: #010103;
 }
 .textoTopo {
-  font-family: "Lato", sans-serif;
+  font-family: "Segoe UI", sans-serif;
   text-decoration: none;
   color: #9f9ea3;
   list-style-type: none;
@@ -23,32 +81,34 @@
   background: #1b1a20;
   display: flex;
   flex-wrap: nowrap;
-
   margin-top: -16px;
-  margin-left: -50px;
+  margin-left: 15%;
+}
+.menuTopo > div:hover {
+  background: #010103;
+  color: #ffffff;
 }
 
 .contaGratuita {
+  margin-right: 5%;
   background: #1b1a20;
   color: #ade424;
+
   margin-left: 40px;
 }
 .contaGratuita:hover {
+  background: #1b1a20;
   color: #8ec723;
 }
 
 .menuTopo > div {
+  flex: 1;
   width: 170px;
-  height: 80px;
+
   text-align: center;
-  line-height: 75px;
+  line-height: 50px;
   font-size: 15;
   margin-top: 15;
-}
-
-.menuTopo > div:hover {
-  background: #010103;
-  color: #ffffff;
 }
 
 .boxLink11 {
@@ -63,8 +123,9 @@
 .containerCentro {
   display: flex;
   margin-top: -16px;
+  margin-right: -10px;
   margin-left: -10px;
-  padding-left: 150px;
+  padding-left: 10%;
   height: 350px;
   line-height: 20px;
   padding-top: 100px;
@@ -99,6 +160,7 @@
 .containerMapa {
   display: flex;
   text-align: center;
+  font-family: "Segoe UI";
   flex-direction: column;
   background: #2b3862;
   height: 800px;
@@ -149,7 +211,48 @@
   font-size: 15;
   margin-top: 15;
 }
-
 .botaoCentro:hover {
   background: #9ddd25;
+}
+
+.containerInformacoes {
+  display: flex;
+  margin-left: -5%;
+  margin-right: -5%;
+  padding: 5%;
+  color: white;
+  background: #0379cd;
+  flex-direction: column;
+}
+.informacoesTitulo {
+  font-family: "Segoe UI";
+  font-size: 25px;
+  text-align: center;
+}
+.informacoesDados {
+  display: flex;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  flex-direction: row;
+}
+
+.box1Informacoes {
+  flex: 1;
+}
+.box1Informacoes > p {
+  font-size: 17px;
+}
+.box2Informacoes {
+  flex: 1;
+}
+.box2Informacoes > p {
+  font-size: 17px;
+}
+.box3Informacoes {
+  flex: 1;
+}
+.box3Informacoes > p {
+  font-size: 17px;
 }
