@@ -5,12 +5,10 @@
   margin-top: -10px;
   margin-right: -10px;
   flex-direction: column;
-
-  align-items: flex-end;
 }
 .topoContato {
   display: flex;
-  margin-left: 25%;
+  margin-left: 2%;
   flex-direction: row;
   color: white;
   font-family: "Segoe UI";
@@ -20,9 +18,10 @@
   margin-top: 10px;
   height: 40px;
   width: 150px;
+  margin-right: 10%;
 }
 .boxTopoVazio {
-  margin-right: 39%;
+  margin-right: 30%;
 }
 .box1Topo {
   flex: 7%;
@@ -82,7 +81,7 @@
   display: flex;
   flex-wrap: nowrap;
   margin-top: -16px;
-  margin-left: 15%;
+  margin-left: 2%;
 }
 .menuTopo > div:hover {
   background: #010103;
@@ -140,17 +139,16 @@
 }
 
 .containerLinks {
+  width: 90%;
   display: flex;
   flex-direction: row;
   background: #ffffff;
-  height: 350px;
-  padding-left: 180px;
-  padding-right: 180px;
+  padding: 5%;
 }
 .containerLinks > div {
   padding: 15px;
   align-self: center;
-  margin-left: 10px;
+
   text-align: center;
 }
 .containerLinks > img {
@@ -184,7 +182,7 @@
   color: #ffffff;
   text-align: center;
 }
-.containerMapa > p:hover {
+.botaoMapa:hover {
   background: #ffffff;
   color: #3a6680;
 }
@@ -221,7 +219,7 @@
   display: flex;
   margin-left: -1%;
   margin-right: -1%;
-  padding: 2%;
+  padding: 1%;
   color: white;
   background: #0379cd;
   flex-direction: column;
@@ -232,9 +230,11 @@
   text-align: center;
 }
 .informacoesDados {
+  flex-wrap: wrap;
   display: flex;
   text-align: center;
   color: white;
+  padding: 2%;
   font-family: "Segoe UI";
   font-size: 20px;
   flex-direction: row;
